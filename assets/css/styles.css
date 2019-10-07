@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Archivo', sans-serif;
+  src: url("./fonts/Archivo-Bold.ttf");
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Archivo', sans-serif;
+  src: url("./fonts/Archivo-Medium.ttf");
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Archivo', sans-serif;
+  src: url("./fonts/Archivo-Regular.ttf");
+  font-style: normal;
+  font-weight: 400; }
+
 * {
   padding: 0;
   margin: 0;

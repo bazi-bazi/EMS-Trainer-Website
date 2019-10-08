@@ -26,23 +26,36 @@
   width: 1170px;
   margin: 0 auto; }
 
+body {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #rgb 36, 36, 36; }
+
 .header {
-  background-image: url(../../images/gym.jpg);
+  background-image: url(../../images/gym2.jpg);
   min-height: 750px; }
 
 .header-nav {
   min-height: 60px;
-  background-color: rgba(46, 47, 69, 0.78); }
+  background-color: rgba(12, 18, 43, 0.7); }
 
 .header-nav__items {
-  padding-top: 15px;
-  padding-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 17px; }
   .header-nav__items .header-nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: auto;
     list-style: none; }
+    .header-nav__items .header-nav__list .header-nav__item {
+      text-decoration: none;
+      color: #dedddd;
+      margin-left: 30px; }

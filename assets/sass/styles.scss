@@ -27,3 +27,29 @@ $screen-max-md: 1199px;
   margin:0 auto;
 
 }
+
+// HEADER
+
+.header{
+  background-image:url(../../images/gym.jpg);
+  min-height: 750px;
+}
+
+.header-nav{
+  min-height: 60px;
+  background-color:rgba(#2e2f45, 0.78);
+}
+
+.header-nav__items{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+
+
+
+  .header-nav__list{
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+  }
+}

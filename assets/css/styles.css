@@ -25,3 +25,24 @@
 .container {
   width: 1170px;
   margin: 0 auto; }
+
+.header {
+  background-image: url(../../images/gym.jpg);
+  min-height: 750px; }
+
+.header-nav {
+  min-height: 60px;
+  background-color: rgba(46, 47, 69, 0.78); }
+
+.header-nav__items {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .header-nav__items .header-nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    list-style: none; }

@@ -1,0 +1,27 @@
+// BODY STYLES
+
+@mixin bodyfont{
+  @include regular;
+  font-size: 22px;
+  color: #rgb(36, 36, 36);
+}
+
+@mixin headertitle{
+  @include bold;
+  font-size: 54px;
+  color: $titlecolor;
+}
+
+@mixin headertext{
+  @include medium;
+  font-size: 32px;
+  color: $menucolor;
+}
+
+@mixin menu{
+  @include bold;
+  font-size: 18px;
+  color: $menucolor;
+  text-decoration: none;
+  text-transform: uppercase;
+}

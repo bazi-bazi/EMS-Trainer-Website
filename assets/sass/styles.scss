@@ -15,6 +15,8 @@ $screen-max-md: 991px;
 $screen-max-md: 1199px;
 
 $titlecolor: #11a486;
+$menucolor: #6778a8;
+
 // MAIN STYLES
 * {
   padding:0;
@@ -57,11 +59,9 @@ body{
     list-style: none;
 
     .header-nav__item{
-      text-decoration: none;
-      color: #4f5c81;
-      font-weight: 700;
+      @include menu;
       margin-left: 30px;
-      text-transform: uppercase;
+
     }
 
   }
@@ -74,8 +74,13 @@ body{
   .header-text{
 
     h1{
-      @include bold;
-      color: $titlecolor;
+      @include headertitle;
+
+    }
+
+    p{
+      @include headertext;
+
     }
   }
 

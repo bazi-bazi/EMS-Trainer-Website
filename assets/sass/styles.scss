@@ -14,7 +14,7 @@ $screen-max-sm: 767px;
 $screen-max-md: 991px;
 $screen-max-md: 1199px;
 
-
+$titlecolor: #11a486;
 // MAIN STYLES
 * {
   padding:0;
@@ -70,6 +70,14 @@ body{
 .header-block{
   display: flex;
   margin: 20px;
+
+  .header-text{
+
+    h1{
+      @include bold;
+      color: $titlecolor;
+    }
+  }
 
 
 

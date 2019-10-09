@@ -38,6 +38,7 @@ body{
 
 .header{
   background-image:url(../../images/gym2.jpg);
+  background-attachment: scroll;
   height: 750px;
 }
 
@@ -80,7 +81,9 @@ body{
 
     p{
       @include headertext;
-
+      border-left: 5px solid $titlecolor;
+      padding-left: 10px;
+    
     }
   }
 

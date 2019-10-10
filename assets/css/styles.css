@@ -39,8 +39,9 @@ body {
 
 .header {
   background-image: url(../../images/gym2.jpg);
+  background-repeat: no-repeat;
   background-attachment: scroll;
-  height: 750px; }
+  height: auto; }
 
 .header-nav {
   min-height: 60px;
@@ -103,3 +104,32 @@ body {
   .header-block .header-banner {
     margin-left: auto;
     margin-bottom: 0; }
+
+@media (max-width: 767px) {
+  .header {
+    background-color: #0c122c; }
+  .header-nav__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 0; }
+    .header-nav__items .header-nav__list {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-left: 0;
+      margin-bottom: 10px; }
+  .header-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header-block .header-banner {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0; }
+      .header-block .header-banner img {
+        width: 300px; } }

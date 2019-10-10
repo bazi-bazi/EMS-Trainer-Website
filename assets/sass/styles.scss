@@ -24,10 +24,15 @@ $menucolor: #93a9e8;
   box-sizing: border-box;
 }
 
-.container {
-  width: 1170px;
+.container-inner {
+  max-width: 1180px;
   margin:0 auto;
 
+}
+
+.container-outer{
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 body{
@@ -87,7 +92,7 @@ body{
       border-collapse: separate;
       padding-left: 10px;
       background-color: rgba(#4d5a81, 0.35);
-      margin-bottom:15px;
+      margin-bottom:20px;
     }
 
     .price{

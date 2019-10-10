@@ -22,9 +22,13 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container {
-  width: 1170px;
+.container-inner {
+  max-width: 1180px;
   margin: 0 auto; }
+
+.container-outer {
+  padding-right: 20px;
+  padding-left: 20px; }
 
 body {
   font-family: 'Archivo', sans-serif;
@@ -88,7 +92,7 @@ body {
     border-collapse: separate;
     padding-left: 10px;
     background-color: rgba(77, 90, 129, 0.35);
-    margin-bottom: 15px; }
+    margin-bottom: 20px; }
   .header-block .header-text .price {
     background-color: #11a486;
     text-align: center;

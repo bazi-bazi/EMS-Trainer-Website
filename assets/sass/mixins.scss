@@ -13,8 +13,8 @@
 }
 
 @mixin headertext{
-  @include medium;
-  font-size: 32px;
+  @include regular;
+  font-size: 30px;
   color: $menucolor;
 }
 

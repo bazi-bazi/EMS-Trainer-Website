@@ -15,7 +15,7 @@ $screen-max-md: 991px;
 $screen-max-md: 1199px;
 
 $titlecolor: #11a486;
-$menucolor: #6778a8;
+$menucolor: #93a9e8;
 
 // MAIN STYLES
 * {
@@ -77,13 +77,26 @@ body{
     h1{
       @include headertitle;
 
+      text-transform: uppercase;
+
     }
 
     p{
       @include headertext;
       border-left: 5px solid $titlecolor;
+      border-collapse: separate;
       padding-left: 10px;
-    
+      background-color: rgba(#4d5a81, 0.35);
+      margin-bottom:15px;
+    }
+
+    .price{
+      background-color: $titlecolor;
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      padding: 10px;
+      text-transform: uppercase;
     }
   }
 

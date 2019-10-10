@@ -61,7 +61,7 @@ body {
       font-weight: 700;
       font-style: normal;
       font-size: 18px;
-      color: #6778a8;
+      color: #93a9e8;
       text-decoration: none;
       text-transform: uppercase;
       margin-left: 30px; }
@@ -76,15 +76,26 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 54px;
-    color: #11a486; }
+    color: #11a486;
+    text-transform: uppercase; }
   .header-block .header-text p {
     font-family: 'Archivo', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    font-size: 32px;
-    color: #6778a8;
+    font-size: 30px;
+    color: #93a9e8;
     border-left: 5px solid #11a486;
-    padding-left: 10px; }
+    border-collapse: separate;
+    padding-left: 10px;
+    background-color: rgba(77, 90, 129, 0.35);
+    margin-bottom: 15px; }
+  .header-block .header-text .price {
+    background-color: #11a486;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase; }
   .header-block .header-banner {
     margin-left: auto;
     margin-bottom: 0; }

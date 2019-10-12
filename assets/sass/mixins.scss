@@ -31,12 +31,12 @@
 
 @mixin headertitle-767{
   @include bold;
-  font-size: 34px;
+  font-size: 44px;
   color: $titlecolor;
 }
 
 @mixin headertext-767{
   @include regular;
-  font-size: 20px;
+  font-size: 24px;
   color: $menucolor;
 }

@@ -78,6 +78,7 @@ body{
   display: flex;
   margin: 20px;
 
+
   .header-text{
 
     h1{
@@ -144,7 +145,7 @@ body{
   }
 }
 // MIN 767
-@media (min-width: $screen-md){
+@media (max-width: $screen-max-md){
   .header-block{
     margin: 20px;
 
@@ -162,7 +163,9 @@ body{
 
     }
     .header-banner img{
-      width: 250px;
+      width: 300px;
+      padding-top: 50px;
+      
     }
   }
 }

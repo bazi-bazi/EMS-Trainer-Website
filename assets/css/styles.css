@@ -134,20 +134,21 @@ body {
       .header-block .header-banner img {
         width: 300px; } }
 
-@media (min-width: 768px) {
+@media (max-width: 1199px) {
   .header-block {
     margin: 20px; }
     .header-block .header-text h1 {
       font-family: 'Archivo', sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size: 34px;
+      font-size: 44px;
       color: #11a486; }
     .header-block .header-text p {
       font-family: 'Archivo', sans-serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 20px;
+      font-size: 24px;
       color: #93a9e8; }
     .header-block .header-banner img {
-      width: 250px; } }
+      width: 300px;
+      padding-top: 50px; } }

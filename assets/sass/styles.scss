@@ -143,8 +143,26 @@ body{
     }
   }
 }
-
+// MIN 767
 @media (min-width: $screen-md){
+  .header-block{
+    margin: 20px;
 
+    .header-text{
 
+      h1{
+        @include headertitle-767;
+
+      }
+
+      p{
+        @include headertext-767;
+
+      }
+
+    }
+    .header-banner img{
+      width: 250px;
+    }
+  }
 }

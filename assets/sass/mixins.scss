@@ -25,3 +25,18 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+
+// MIN 767
+
+@mixin headertitle-767{
+  @include bold;
+  font-size: 34px;
+  color: $titlecolor;
+}
+
+@mixin headertext-767{
+  @include regular;
+  font-size: 20px;
+  color: $menucolor;
+}

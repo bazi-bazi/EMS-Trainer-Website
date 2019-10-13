@@ -183,7 +183,8 @@ body{
   margin-top: 50px;
 
   .about-text{
-    background-color: #rgb(184, 196, 203);
+    flex-grow: 1;
+    
     max-width: 570px;
 
     .about-text__tx{

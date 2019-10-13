@@ -171,7 +171,9 @@ body {
   display: flex;
   margin-top: 50px; }
   .about .about-text {
-    background-color: #rgb 184, 196, 203;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     max-width: 570px; }
     .about .about-text .about-text__tx {
       font-family: 'Archivo', sans-serif;

@@ -26,6 +26,15 @@
   text-transform: uppercase;
 }
 
+@mixin titleh2{
+  @include bold;
+  font-size: 24px;
+  color: $titlecolor;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid $titlecolor;
+}
+
 
 // MIN 767
 

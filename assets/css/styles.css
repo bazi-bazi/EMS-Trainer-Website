@@ -37,6 +37,18 @@ body {
   font-size: 22px;
   color: #rgb 36, 36, 36; }
 
+.section-title {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color: #11a486;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid #11a486;
+  display: inline-block;
+  margin-top: 100px; }
+
 .header {
   background-image: url(../../images/gym2.jpg);
   background-repeat: no-repeat;
@@ -152,3 +164,19 @@ body {
     .header-block .header-banner img {
       width: 300px;
       padding-top: 50px; } }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px; }
+  .about .about-text {
+    background-color: #rgb 184, 196, 203;
+    max-width: 570px; }
+    .about .about-text .about-text__tx {
+      font-family: 'Archivo', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 22px;
+      color: #rgb 36, 36, 36;
+      line-height: 28px; }

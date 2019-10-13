@@ -39,6 +39,12 @@ body{
   @include bodyfont;
 }
 
+.section-title{
+  @include titleh2;
+  display: inline-block;
+  margin-top: 100px;
+}
+
 // HEADER
 
 .header{
@@ -171,3 +177,18 @@ body{
 }
 
 // HOW IT WORKS
+
+.about{
+  display: flex;
+  margin-top: 50px;
+
+  .about-text{
+    background-color: #rgb(184, 196, 203);
+    max-width: 570px;
+
+    .about-text__tx{
+      @include bodyfont;
+      line-height: 28px;
+    }
+  }
+}

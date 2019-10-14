@@ -182,3 +182,7 @@ body {
       font-size: 22px;
       color: #rgb 36, 36, 36;
       line-height: 28px; }
+  .about .about-img img {
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px rgba(45, 31, 37, 0.1);
+    box-shadow: 5px 5px rgba(45, 31, 37, 0.1); }

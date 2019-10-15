@@ -188,3 +188,19 @@ body {
     border-radius: 20px;
     -webkit-box-shadow: 5px 5px rgba(45, 31, 37, 0.1);
     box-shadow: 5px 5px rgba(45, 31, 37, 0.1); }
+
+.how-text__block {
+  margin-top: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a89fa0), to(#3a2e2e));
+  background-image: -webkit-linear-gradient(#a89fa0, #3a2e2e);
+  background-image: -o-linear-gradient(#a89fa0, #3a2e2e);
+  background-image: linear-gradient(#a89fa0, #3a2e2e);
+  border-radius: 10px; }
+  .how-text__block .how-text__title {
+    padding: 20px;
+    color: white; }
+  .how-text__block .how-text__content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: white; }

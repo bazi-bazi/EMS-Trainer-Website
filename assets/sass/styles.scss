@@ -176,7 +176,7 @@ body{
   }
 }
 
-// HOW IT WORKS
+// WHAT IS EMS
 
 .about{
   display: flex;
@@ -198,5 +198,24 @@ body{
       border-radius: 20px;
       box-shadow: 5px 5px rgba(45, 31, 37, 0.10);
     }
+  }
+}
+
+// HOW IT WORKS
+
+.how-text__block{
+  margin-top: 50px;
+  background-image: linear-gradient(#a89fa0, #3a2e2e);
+  border-radius: 10px;
+
+  .how-text__title{
+    padding: 20px;
+    color: white;
+  }
+  .how-text__content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: white;
   }
 }

@@ -217,3 +217,14 @@ body {
       text-align: center;
       color: white;
       fill: currentColor; }
+
+.beforeafter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .beforeafter .beforeafter__image {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 550px;
+    flex-basis: 550px; }

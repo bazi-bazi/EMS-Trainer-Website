@@ -219,26 +219,55 @@ body {
       fill: currentColor; }
 
 .beforeafter {
+  position: relative;
   margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .beforeafter .beforeafter__image1 {
     background-image: url(../../images/before.jpg);
+    background-repeat: no-repeat;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-preferred-size: 550px;
     flex-basis: 550px;
-    border-radius: 10px;
-    min-height: 800px;
+    min-height: 700px;
     margin-right: 20px; }
   .beforeafter .beforeafter__image2 {
     background-image: url(../../images/after.jpg);
+    background-repeat: no-repeat;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-preferred-size: 550px;
     flex-basis: 550px;
-    min-height: 800px;
-    border-radius: 10px; }
+    min-height: 700px; }
+  .beforeafter .beforeafter__title1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 82px;
+    text-transform: uppercase;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    top: 300px;
+    left: -50px; }
+  .beforeafter .beforeafter__title2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 82px;
+    text-transform: uppercase;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    top: 275px;
+    right: 300px; }

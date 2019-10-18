@@ -219,12 +219,26 @@ body {
       fill: currentColor; }
 
 .beforeafter {
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .beforeafter .beforeafter__image {
+  .beforeafter .beforeafter__image1 {
+    background-image: url(../../images/before.jpg);
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex-preferred-size: 550px;
-    flex-basis: 550px; }
+    flex-basis: 550px;
+    border-radius: 10px;
+    min-height: 800px;
+    margin-right: 20px; }
+  .beforeafter .beforeafter__image2 {
+    background-image: url(../../images/after.jpg);
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 550px;
+    flex-basis: 550px;
+    min-height: 800px;
+    border-radius: 10px; }

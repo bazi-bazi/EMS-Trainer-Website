@@ -240,10 +240,22 @@ body{
 }
 
 .beforeafter{
+  margin-top: 60px;
   display: flex;
 
-  .beforeafter__image{
+  .beforeafter__image1{
+    background-image:url(../../images/before.jpg);
     flex-grow: 1;
     flex-basis: 550px;
+    border-radius: 10px;
+    min-height: 800px;
+    margin-right: 20px;
+  }
+  .beforeafter__image2{
+    background-image:url(../../images/after.jpg);
+    flex-grow: 1;
+    flex-basis: 550px;
+    min-height: 800px;
+    border-radius: 10px;
   }
 }

@@ -203,17 +203,26 @@ body{
 }
 
 // HOW IT WORKS
-
-.how-text__block{
-  margin-top: 120px;
+.how{
   background-image: linear-gradient(#a89fa0, #3a2e2e);
   border-radius: 10px;
+  min-height: 700px;
+}
+.how-text__block{
+  margin-top: 120px;
+
+
 
   .how-text__title{
     padding: 20px;
     color: white;
     font-size: 32px;
     text-transform: uppercase;
+  }
+  .how-text__img{
+    float: left;
+    padding-left: 20px;
+
   }
   .how-text__content{
     display: inline-block;
@@ -236,52 +245,5 @@ body{
       color: white;
       fill:currentColor;
     }
-  }
-}
-
-.beforeafter{
-  position: relative;
-  margin-top: 60px;
-  display: flex;
-  flex-wrap: wrap;
-
-  .beforeafter__image1{
-    background-image:url(../../images/before.jpg);
-    background-repeat: no-repeat;
-    flex-grow: 1;
-    flex-basis: 550px;
-
-    min-height: 700px;
-    margin-right: 20px;
-  }
-  .beforeafter__image2{
-    background-image:url(../../images/after.jpg);
-
-    background-repeat: no-repeat;
-    flex-grow: 1;
-    flex-basis: 550px;
-    min-height: 700px;
-
-  }
-
-  .beforeafter__title1{
-    @include bold;
-    color:white;
-    font-size: 82px;
-    text-transform: uppercase;
-    transform: rotate(90deg);
-    position: absolute;
-    top:300px;
-    left: -50px;
-  }
-  .beforeafter__title2{
-    @include bold;
-    color:white;
-    font-size: 82px;
-    text-transform: uppercase;
-    transform: rotate(90deg);
-    position: absolute;
-    top:275px;
-    right: 300px;
   }
 }

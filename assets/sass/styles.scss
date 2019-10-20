@@ -45,6 +45,12 @@ body{
   margin-top: 100px;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 // HEADER
 
 .header{
@@ -205,19 +211,21 @@ body{
 // HOW IT WORKS
 .how{
   background-image: linear-gradient(#a89fa0, #3a2e2e);
-  border-radius: 10px;
-  min-height: 600px;
+  background-repeat: no-repeat;
+
 }
 .how-text__block{
   margin-top: 120px;
 
 
 
+
   .how-text__title{
-    padding: 20px;
+    padding: 70px 20px 40px ;
     color: white;
     font-size: 32px;
     text-transform: uppercase;
+
   }
   .how-text__img{
     float: left;

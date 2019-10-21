@@ -12,7 +12,7 @@ $screen-xl: 1200px;
 
 $screen-max-sm: 767px;
 $screen-max-md: 991px;
-$screen-max-md: 1199px;
+$screen-max-lg: 1199px;
 
 $titlecolor: #11a486;
 $menucolor: #93a9e8;
@@ -221,13 +221,14 @@ body{
 
 
   .how-text__title{
-    padding: 70px 20px 40px ;
+    padding: 80px 20px 40px ;
     @include titleh2;
     border:none;
     text-transform: uppercase;
 
   }
   .how-text__block__cont{
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -261,11 +262,46 @@ body{
 // HOW AND WHAT
 // MAX 767
 @media (max-width: $screen-max-sm) {
-  .about-img{
+  .how-text__title{
+    text-align: center;
 
+  }
+  .about-img{
     img{
       margin-top: 30px;
     }
   }
+  .how-text-block__content{
+    margin-left: auto;
+    margin-right: auto;
+  }
+.how-text__img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+}
+// MAX 991
+@media (max-width: $screen-max-md) {
+  .how-text__title{
+    text-align: center;
 
+  }
+  .about-img{
+    img{
+      margin-top: 30px;
+    }
+  }
+  .how-text__img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .how-text__block__cont{
+    flex-wrap: nowrap;
+  }
+  .how-text-block__content{
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

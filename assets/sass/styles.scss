@@ -227,14 +227,18 @@ body{
     text-transform: uppercase;
 
   }
+  .how-text__block__cont{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .how-text__img{
-    float: left;
     padding-left: 20px;
-
+  }
+  .how-text-block__content{
+    margin-left: auto;
   }
   .how-text__content{
     display: inline-block;
-    margin-left: 70px;
     margin-bottom: 10px;
     color: $menucolor;
 
@@ -253,4 +257,15 @@ body{
 
     }
   }
+}
+// HOW AND WHAT
+// MAX 767
+@media (max-width: $screen-max-sm) {
+  .about-img{
+
+    img{
+      margin-top: 30px;
+    }
+  }
+
 }

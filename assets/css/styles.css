@@ -214,12 +214,18 @@ body {
     border-bottom: 2px solid #11a486;
     border: none;
     text-transform: uppercase; }
+  .how-text__block .how-text__block__cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
   .how-text__block .how-text__img {
-    float: left;
     padding-left: 20px; }
+  .how-text__block .how-text-block__content {
+    margin-left: auto; }
   .how-text__block .how-text__content {
     display: inline-block;
-    margin-left: 70px;
     margin-bottom: 10px;
     color: #93a9e8; }
     .how-text__block .how-text__content span {
@@ -230,3 +236,7 @@ body {
       margin-right: 10px;
       vertical-align: middle;
       text-align: center; }
+
+@media (max-width: 767px) {
+  .about-img img {
+    margin-top: 30px; } }

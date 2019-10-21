@@ -254,7 +254,7 @@ body{
       margin-right: 10px;
       vertical-align:middle;
       text-align: center;
-
+      margin-right: 10px;
 
     }
   }
@@ -279,10 +279,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+
 }
 }
 // MAX 991
-@media (max-width: $screen-max-md) {
+@media (max-width: $screen-max-lg) {
   .how-text__title{
     text-align: center;
 

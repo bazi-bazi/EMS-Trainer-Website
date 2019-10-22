@@ -201,7 +201,7 @@ body {
 
 .how-text__block {
   margin-top: 120px;
-  margin-bottom: 100px; }
+  padding-bottom: 80px; }
   .how-text__block .how-text__title {
     padding: 80px 20px 40px;
     font-family: 'Archivo', sans-serif;
@@ -215,14 +215,14 @@ body {
     border: none;
     text-transform: uppercase; }
   .how-text__block .how-text__block__cont {
-    padding-top: 20px;
+    padding-top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .how-text__block .how-text__img {
-    padding-left: 20px; }
+    padding-right: 20px; }
   .how-text__block .how-text-block__content {
     margin-left: auto; }
   .how-text__block .how-text__content {

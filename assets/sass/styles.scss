@@ -216,7 +216,7 @@ body{
 }
 .how-text__block{
   margin-top: 120px;
-  margin-bottom: 100px;
+  padding-bottom: 80px;
 
 
 
@@ -228,12 +228,12 @@ body{
 
   }
   .how-text__block__cont{
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
   }
   .how-text__img{
-    padding-left: 20px;
+    padding-right: 20px;
   }
   .how-text-block__content{
     margin-left: auto;

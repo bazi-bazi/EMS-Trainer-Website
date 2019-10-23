@@ -275,6 +275,9 @@ body {
 .how-use {
   background-color: #090f29; }
 
+.how-use-lighter {
+  background-color: #04091f; }
+
 .how-use__title {
   font-family: 'Archivo', sans-serif;
   font-weight: 700;
@@ -285,4 +288,10 @@ body {
   text-transform: uppercase;
   border-bottom: 2px solid #11a486;
   display: inline-block;
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-bottom: 60px; }
+
+.how-use__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

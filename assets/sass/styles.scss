@@ -324,6 +324,27 @@ body{
   margin-bottom: 60px;
 
 }
-.how-use__economy{
+.how-use__list{
   display: flex;
+
+  .how-use__list__image{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+  }
+
+  h3{
+    color:$titlecolor;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+  }
+  p{
+    color:$menucolor;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
 }

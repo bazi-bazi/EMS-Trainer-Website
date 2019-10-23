@@ -291,7 +291,22 @@ body {
   margin-top: 100px;
   margin-bottom: 60px; }
 
-.how-use__economy {
+.how-use__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .how-use__list .how-use__list__image {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 50px; }
+  .how-use__list h3 {
+    color: #11a486;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 20px; }
+  .how-use__list p {
+    color: #93a9e8;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px; }

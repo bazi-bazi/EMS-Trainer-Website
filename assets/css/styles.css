@@ -271,3 +271,18 @@ body {
   .how-text-block__content {
     margin-right: auto;
     margin-left: auto; } }
+
+.how-use {
+  background-color: #090f29; }
+
+.how-use__title {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color: #11a486;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid #11a486;
+  display: inline-block;
+  margin-top: 100px; }

@@ -309,3 +309,14 @@ body{
     margin-left: auto;
   }
 }
+
+// HOW TO use
+.how-use{
+  background-color: #090f29;
+}
+.how-use__title{
+  @include titleh2;
+  display: inline-block;
+  margin-top: 100px;
+
+}

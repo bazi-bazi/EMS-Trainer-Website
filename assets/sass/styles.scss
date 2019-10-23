@@ -236,7 +236,8 @@ body{
     padding-right: 20px;
   }
   .how-text-block__content{
-    margin-left: auto;
+    margin-right: auto;
+    order: -1;
   }
   .how-text__content{
     display: inline-block;
@@ -251,10 +252,10 @@ body{
 
     img{
       display: inline-block;
-      margin-right: 10px;
+      margin-left:10px;
       vertical-align:middle;
       text-align: center;
-      margin-right: 10px;
+
 
     }
   }
@@ -279,6 +280,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  margin-top: 40px;
 
 }
 }
@@ -297,6 +299,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    margin-top: 40px;
   }
   .how-text__block__cont{
     flex-wrap: nowrap;

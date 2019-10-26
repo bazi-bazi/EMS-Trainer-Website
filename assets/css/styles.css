@@ -324,3 +324,20 @@ footer {
       font-size: 16px;
       text-align: center;
       color: #93a9e8; }
+
+@media (max-width: 767px) {
+  .how-text__block {
+    padding-bottom: 10px; }
+  .how-use__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .how-use__list h3 {
+      padding-top: 0px; }
+  .how-use__list__image {
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-right: 0px; } }

@@ -310,7 +310,7 @@ body{
   }
 }
 
-// HOW TO use
+// HOW TO USE
 .how-use{
   background-color: #090f29;
 }
@@ -368,5 +368,28 @@ footer{
       text-align: center;
       color:$menucolor;
     }
+  }
+}
+// HOW TO USE & FOOTER
+// MAX 767
+@media (max-width: $screen-max-sm) {
+  .how-text__block{
+    padding-bottom: 10px;
+  }
+  .how-use__list{
+    display: flex;
+    flex-wrap: wrap;
+
+    h3{
+
+      padding-top: 0px;
+
+    }
+  }
+  .how-use__list__image{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-right: 0px;
   }
 }

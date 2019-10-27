@@ -54,6 +54,9 @@ body {
   display: table;
   clear: both; }
 
+html {
+  scroll-behavior: smooth; }
+
 .header {
   background-image: url(../../images/gym2.jpg);
   background-repeat: no-repeat;

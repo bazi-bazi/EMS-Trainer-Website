@@ -393,3 +393,13 @@ footer{
     margin-right: 0px;
   }
 }
+@media (max-width: $screen-max-md) {
+  .how-text__block{
+    padding-bottom: 0px;
+  }
+  .how-use__list{
+    .how-use__list__image{
+      margin-right: 15px;
+    }
+  }
+}

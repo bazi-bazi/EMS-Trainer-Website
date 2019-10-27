@@ -341,3 +341,9 @@ footer {
     padding-top: 20px;
     padding-bottom: 0px;
     margin-right: 0px; } }
+
+@media (max-width: 991px) {
+  .how-text__block {
+    padding-bottom: 0px; }
+  .how-use__list .how-use__list__image {
+    margin-right: 15px; } }
